@@ -11,7 +11,6 @@ set mouse=c
 set scroll=5
 
 
-
 " let g:ycm_use_clangd = 0
 " let g:ycm_autoclose_preview_window_after_insertion = 1
 " let g:ycm_autoclose_preview_window_after_completion = 1
@@ -209,7 +208,7 @@ let g:mkdp_open_to_the_world = 0
  function! ScrollQuarter(move)
      let height=winheight(0)
 
-         if a:move == 'up'
+        if a:move == 'up'
              let key="\<C-Y>"
          else
              let key="\<C-E>"
@@ -360,3 +359,11 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+
+
+
+"ctrl p vim setting
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
