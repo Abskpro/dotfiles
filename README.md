@@ -3,7 +3,9 @@ Prerequsite
 1. Python3
 2. Nodejs
 3. if in wsl please do sudo apt-get update && sudo apt-get build-essential
-4. install javascript and typescript language server
+
+##After installation do not forget to execute following command in vim 
+    install javascript and typescript language server
    - :call coc#util#install()
    - :CocInstall coc-tsserver
    - :CocInstall coc-json
