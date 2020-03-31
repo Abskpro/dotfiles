@@ -3,7 +3,9 @@ Prerequsite
 1. Python3
 2. Nodejs
 3. if in wsl please do sudo apt-get update && sudo apt-get build-essential
-4. install javascript and typescript language server
+
+##After installation do not forget to execute following command in vim 
+    install javascript and typescript language server
    - :call coc#util#install()
    - :CocInstall coc-tsserver
    - :CocInstall coc-json
@@ -14,7 +16,7 @@ Prerequsite
 
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following from your terminal:
 
-    git clone --depth=1 https://github.com/Abskpro/VIM.git ~/.vim_runtime
+    git clone --depth=1 https://github.com/Abskpro/Vim.git ~/.vim_runtime
     sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 ### Install for multiple users
