@@ -1,5 +1,8 @@
 #!/bin/sh
 set -e
+sudo apt install build-essential cmake vim python3-dev
+(cd ~/.vim_runtime/sources_my_forked/ && git clone https://github.com/ycm-core/YouCompleteMe.git )
+(cd ~/.vim_runtime/sources_my_forked/YouCompleteMe && git submodule update --init --recursive &&  python3 install.py --all)
 
 cd ~/.vim_runtime
 
@@ -15,5 +18,6 @@ try
 source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
+
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
