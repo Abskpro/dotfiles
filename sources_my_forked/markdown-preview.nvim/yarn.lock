@@ -2166,9 +2166,10 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-highlight.js@^9.13.0:
-  version "9.13.1"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.13.1.tgz#054586d53a6863311168488a0f58d6c505ce641e"
+highlight.js@^9.18.1:
+  version "9.18.2"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.2.tgz#c48dd55f95986e4449228849d709504bfe7cb964"
+  integrity sha512-tglpEIoxZR+CTZw7ivuOZJ2wEowySSPAmBv+BQnXzezJ937wQwWnqJ8BmpQAdi3Lgf3ltlCkhT2bb6IWVZrO9Q==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
