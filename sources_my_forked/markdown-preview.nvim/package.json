@@ -29,8 +29,8 @@
     "neovim": "^4.2.1",
     "next": "^7.0.2",
     "next-routes": "^1.4.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "socket.io": "^2.1.1",
     "socket.io-client": "^2.1.1"
   },
