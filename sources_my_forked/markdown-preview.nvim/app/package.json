@@ -9,7 +9,7 @@
   "private": true,
   "dependencies": {
     "log4js": "3.0.6",
-    "neovim": "4.2.1",
+    "neovim": "4.10.0",
     "socket.io": "2.1.1",
     "tslib": "1.9.3",
     "vim-node-rpc": "0.1.24"
